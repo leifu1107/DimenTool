@@ -216,8 +216,9 @@ public class DimenTool {
 }  
 ```
 
-##### 2.
+##### 2.编写dimens下的数值(0.5-360,可根据项目来定范围,主要为以后方便使用),可直接把项目dimens复制到你的项目中
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/1.png) 
+##### 3.创建文件夹(values-sw240dp,values-sw320dp	values-sw360dp...根据dimentool代码创建对应的文件夹)
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/3.png) 
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/4.png) 
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/5.png) 
