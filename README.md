@@ -2,8 +2,8 @@
 Android 屏幕适配方案,自动生成不同分辨率的值
 android中官方建议的屏幕适配方式，通过根据不同的分辨率在工程的res文件夹下建立不同的尺寸文件夹，每个文件夹下都建立dimens.xml文件。然后根据不同的尺寸在dimens.xml文件夹中分别计算配置不同的dp或者sp单位。开发中发现，android屏幕适配需要用到很多的尺寸，每个尺寸都建立dimens.xml问价。每个文件中的数值都要按照比例去计算，一个一个拿着计算器去计算吗？这样太麻烦了。今天有一个好的办法，来为大家介绍一下。
 
-#### 步骤
-##### 1.在工程的java文件夹下把项目的DimenTool.java复制到该文件夹下。
+### 步骤
+#### 1.在工程的java文件夹下把项目的DimenTool.java复制到该文件夹下。
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/2.png) 
 ```java
 /**
@@ -216,9 +216,10 @@ public class DimenTool {
 }  
 ```
 
-##### 2.编写dimens下的数值(0.5-360,可根据项目来定范围,主要为以后方便使用),可直接把项目dimens复制到你的项目中
+#### 2.编写dimens下的数值(0.5-360,可根据项目来定范围,主要为以后方便使用),可直接把项目dimens复制到你的项目中
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/1.png) 
-##### 3.创建文件夹(values-sw240dp,values-sw320dp	values-sw360dp...根据dimentool代码创建对应的文件夹)
+#### 3.创建文件夹(values-sw240dp,values-sw320dp	values-sw360dp...根据dimentool代码创建对应的文件夹)
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/3.png) 
+4.单击鼠标右键,执行Run.Dimentools.main,对应values文件夹下即可生成对用的dimens值
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/4.png) 
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/5.png) 
