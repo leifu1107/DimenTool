@@ -220,6 +220,6 @@ public class DimenTool {
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/1.png) 
 #### 3.创建文件夹(values-sw240dp,values-sw320dp	values-sw360dp...根据dimentool代码创建对应的文件夹)
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/3.png) 
-4.单击鼠标右键,执行Run.Dimentools.main,对应values文件夹下即可生成对用的dimens值
+#### 4.单击鼠标右键,执行Run.Dimentools.main,对应values文件夹下即可生成对用的dimens值
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/4.png) 
 ![](https://github.com/leifu1107/DimenTool/raw/master/screenshots/5.png) 
